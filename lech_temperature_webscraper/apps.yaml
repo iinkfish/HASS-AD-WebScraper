@@ -1,0 +1,3 @@
+lechScraper:
+  module: lech_webscraper
+  class: LechWebscraper
