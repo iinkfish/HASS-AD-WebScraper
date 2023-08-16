@@ -1,0 +1,12 @@
+# Event based automatation to trigger the webscraping
+- id: '1692184358984'
+  alias: scrape lech
+  description: ''
+  trigger:
+  - platform: time_pattern
+    minutes: /15
+  condition: []
+  action:
+  - event: SCRAPE_LECH_TEMP
+    event_data: {}
+  mode: single
