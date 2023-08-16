@@ -1,0 +1,6 @@
+# this sets a sensor template in home assistant. Starting value is -15 for debugging
+template:
+    sensor:
+      - name: "Lech Temperatur"
+        state: '-15'
+        unit_of_measurement: "°C"
